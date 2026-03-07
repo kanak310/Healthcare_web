@@ -1,0 +1,18 @@
+body {
+    background:linear-gradient(to right, #76cbd1,#3f71b7 );
+    color: #002b5b;
+    font-family:'Poppins',sans-serif;
+}
+
+img {
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+}
+
+h2{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+ 

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='medical/css/style.css') }}">
+
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | HealthMate</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(to bottom right, #c8e7ff, #005b99);
+      color: #333;
+      margin: 0;
+      padding: 0;
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: rgba(0, 77, 128, 0.9);
+      color: white;
+      text-align: center;
+      padding: 1.5rem 0;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+      backdrop-filter: blur(5px);
+    }
+
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.75);
+      border-radius: 15px;
+      box-shadow: 0 2px 20px rgba(0, 0, 0, 0.15);
+      backdrop-filter: blur(10px);
+    }
+
+    h1, h2, h3 {
+      color: #004d80;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 40px;
+    }
+
+    ul li {
+      margin: 10px 0;
+    }
+
+    .vision {
+      background-color: rgba(227, 242, 253, 0.8);
+      padding: 1.5rem;
+      border-radius: 10px;
+      margin-top: 2rem;
+      font-style: italic;
+    }
+
+    footer {
+      text-align: center;
+      background-color: rgba(0, 77, 128, 0.9);
+      color: white;
+      padding: 1rem 0;
+      margin-top: 2rem;
+      backdrop-filter: blur(5px);
+    }
+
+    .about-image {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .about-image img {
+      max-width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      opacity: 0.95;
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    .about-image img:hover {
+      transform: scale(1.03);
+      opacity: 1;
+    }
+
+    @media (max-width: 600px) {
+      section {
+        margin: 1rem;
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>Welcome To HealthMate</h2>
+  </header>
+
+  <section>
+    <h1>About HealthMate</h1>
+
+
+    <p>
+      Welcome to <strong>HealthMate</strong>, your digital partner on the journey to better health and a happier life.
+      We believe that wellness isn't about perfection — it's about progress. That's why HealthMate was created: to help
+      you take small, consistent steps toward feeling your best every single day.
+    </p>
+
+    <p>
+      At HealthMate, we aim to make health simple, personal, and achievable for everyone. Whether you're checking your
+      symptoms, discovering nutrition tips, or learning how to care for your mind and body, we're here to support you
+      through it all.
+    </p>
+
+    <h2>Our Mission</h2>
+    <p>
+      To empower people to live healthier lives by providing easy-to-use tools and reliable information that inspire
+      positive daily habits.
+    </p>
+
+    <h2>What We Offer</h2>
+    <ul>
+      <li><strong>Symptom Checker:</strong> Understand your health better by identifying possible causes for common symptoms.</li>
+      <li><strong>Nutrition & Wellness Tips:</strong> Discover simple, science-backed advice for a balanced lifestyle.</li>
+      <li><strong>Motivation That Lasts:</strong> Stay inspired with quotes, reminders, and community encouragement.</li>
+    </ul>
+
+    <div class="vision">
+      <h3>Our Vision</h3>
+      <p>
+        To remind people that health is not a destination but a journey — one that becomes easier when you have the
+        right companion by your side. HealthMate is more than a website; it's your friend, guide, and motivator to live
+        a healthier, happier life.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 HealthMate | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
+

@@ -1,0 +1,74 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Health Tips</title>
+    
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='medical/css/style.css') }}">
+</head>
+<body>
+        <img src="{{ url_for('static', filename='medical/image/healthy.food.jpg') }}" alt="Healthy Lifestyle" style="width: 210px; height:200px; object-fit:cover; border-radius:10px;">
+        <img src="{{ url_for('static', filename='medical/image/yoga.jpg') }}" alt="Exercise" style="width:210px; height:200px; object-fit:cover; border-radius: 10px;">
+        <img src="{{url_for('static', filename='medical/image/fitness.jpg') }}" alt="Exercise" style="width:210px; height:200px; object-fit:cover; border-radius: 10px;">
+        <img src="{{url_for('static', filename='medical/image/lady.jpg') }}" alt = "Exercise" style = "width: 210px; height:200px; object-fit:cover; border-radius:10px;">
+        <img src="{{url_for('static', filename='medical/image/sleep.jpg') }}" alt = "Exercise" style = "width:210px; height:200px; object-fit:cover; border-radius:10px;">
+        <img src="{{url_for('static', filename='medical/image/walk.jpg') }}" alt = "Exercise" style="width:210px; height:200px; object-fit:cover; border-radius:10px;">
+        <h1><i class="fa-solid fa-heart-pulse"></i> Daily Health Tips</h1>
+        <nav>
+            <a href="{{ url_for('home') }}">Home</a>
+        </nav>
+    </header>
+
+    <main class="content">
+        <section>
+            <h2><i class="fa-solid fa-seedling"></i> General Health Tips</h2>
+            <ul>
+                <li>Drink at least 8 glasses of water daily to stay hydrated.</li>
+                <li>Get 7-8 hours of quality sleep every night.</li>
+                <li>Avoid skipping meals, especially breakfast.</li>
+                <li>Limit junk food and sugary drinks.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2><i class="fa-solid fa-apple-whole"></i> Eat Balanced Meals</h2>
+            <ul>
+                <li>Include fruits, vegetables, and whole grains in your daily diet.</li>
+                <li>Reduce salt and oil while cooking.</li>
+                <li>Eat at regular intervals instead of long gaps between meals.</li>
+                <li>Avoid eating late at night.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2><i class="fa-solid fa-dumbbell"></i> Exercise Regularly</h2>
+            <ul>
+                <li>Do at least 30 minutes of physical activity daily.</li>
+                <li>Maintain correct posture during exercises to protect your spine and joints.</li>
+                <li>Stay hydrated before, during, and after your workout.</li>
+                <li>Dance, yoga, walking, cycling — anything that feels fun will keep you motivated.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2><i class="fa-solid fa-spa"></i> Manage Stress</h2>
+            <ul>
+                <li>Practice meditation or yoga to calm your mind.</li>
+                <li>Stretch for 5-10 minutes in the morning to improve flexibility.</li>
+                <li>Maintain good posture while sitting and using gadgets.</li>
+                <li>Take short breaks from your phone or social media; it helps your brain recharge.</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
+
